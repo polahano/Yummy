@@ -1,0 +1,63 @@
+section {
+  display: none;
+}
+
+input::placeholder {
+  color: rgb(143, 143, 143) !important;
+  opacity: 1;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.visible {
+  display: flex;
+}
+
+.vertical-nav {
+  width: 300px;
+  transform: translateX(-80%);
+  -webkit-transform: translateX(-80%);
+  -moz-transform: translateX(-80%);
+  -ms-transform: translateX(-80%);
+  -o-transform: translateX(-80%);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.menu {
+  width: 80%;
+}
+
+.side-bar {
+  width: 20%;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-content .card-layer {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  background-color: rgba(255, 255, 255, 0.64);
+  height: 100%;
+}
+
+.card-content:hover .card-layer {
+  top: 0 !important;
+}
+
+.card-image {
+}
+
+.card-layer {
+  height: 200px;
+}
